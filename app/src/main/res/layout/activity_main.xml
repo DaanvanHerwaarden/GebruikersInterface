@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:orientation="horizontal"
+        android:gravity="center"
+         >
+
+
+        <ImageView
+            android:id="@+id/view111"
+            android:src="@drawable/hd_witte_houten_planken_achtergrond_hd_hout_wallpaper_foto"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            />
+
+        <TextView
+            android:id="@+id/usernameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="Contactgegevens"
+            android:textSize="36sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:gravity="center_vertical|center" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/personListView"
+            android:layout_gravity="center_horizontal" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+         >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.2"
+            >
+
+            <TextView
+                android:id="@+id/Voornaamvraag"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/testVoornaamvraag"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center_vertical"
+                android:textAlignment="viewEnd"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/Achternaamvraag"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/testAchternaamvraag"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center_vertical"
+                android:textAlignment="textEnd"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/Adresvraag"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/testAdresvraag"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColorLink="?android:attr/textColorPrimaryDisableOnly"
+                android:textColor="@android:color/black"
+                android:gravity="center_vertical"
+                android:textAlignment="textEnd"
+                android:layout_marginRight="10dp" />
+
+
+            <TextView
+                android:id="@+id/Postcodevraag"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/testPostcodevraag"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textColorHighlight="@color/colorAccent"
+                android:gravity="center_vertical"
+                android:textAlignment="textEnd"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/Woonplaatsvraag"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/testWoonplaatsvraag"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center_vertical"
+                android:textAlignment="textEnd"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/Leeftijdvraag"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/testLeeftijdvraag"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center_vertical"
+                android:textAlignment="textEnd"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.8"
+            >
+
+
+        <TextView
+            android:id="@+id/Voornaam"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/testVoornaam"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/Achternaam"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/testAchternaam"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/Adres"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/testAdres"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColorLink="?android:attr/textColorPrimaryDisableOnly"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/Postcode"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/testPostcode"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textColorHighlight="@color/colorAccent"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/Woonplaats"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/testWoonplaats"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/Leeftijd"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/testLeeftijd"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <ImageView
+            android:id="@+id/view112"
+            android:src="@drawable/hd_witte_houten_planken_achtergrond_hd_hout_wallpaper_foto"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/view113"
+            android:src="@drawable/bob_marley2"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:forceHasOverlappingRendering="false"
+            android:layout_gravity="center"
+            android:baselineAlignBottom="false"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp" />
+
+        <Button
+            android:text="Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonreset"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="start"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="93dp"
+            android:layout_height="28dp"
+            android:id="@+id/counterView"
+            android:text="Hello World!"
+            android:foregroundGravity="fill_vertical|center_horizontal"
+            android:layout_gravity="bottom|right" />
+
+        <Button
+            android:text="++"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonteller"
+            android:layout_gravity="end"
+            android:layout_marginRight="2dp"
+            android:textColor="@android:color/black" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

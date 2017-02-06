@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GebruikersInterface</string>
+
+    <string name="testVoornaamvraag">Naam:</string>
+    <string name="testAchternaamvraag">Achternaam:</string>
+    <string name="testAdresvraag">Adres:</string>
+    <string name="testPostcodevraag">Postcode:</string>
+    <string name="testWoonplaatsvraag">Woonplaats:</string>
+    <string name="testLeeftijdvraag">Geboortedatum":</string>
+
+    <string name="testVoornaam">Bob</string>
+    <string name="testAchternaam">Marley</string>
+    <string name="testAdres">Jamaica</string>
+    <string name="testPostcode">Onbekend</string>
+    <string name="testWoonplaats">Nine miles</string>
+    <string name="testLeeftijd">1965-1981</string>
+</resources>
